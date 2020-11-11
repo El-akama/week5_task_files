@@ -62,15 +62,12 @@
 #             lines += 1
 
 # task7 
-# with open('task7int.txt' 'r') as file_int:
-#     nums = file_int.read().splitlines()
-#     s_num =[]
-#     for i in list(sorted(nums)):
-#         res = sum(map(int, i))
-#         s_num.append(res)
- 
+# with open('task7int.txt', 'r') as file_int:
+#     s_num = list(map(int, file_int.read().split()))
+#     s_num = sorted(s_num)
 # with open('task7out.txt', 'w') as file_out:
-#     print(sorted(s_num), file=file_out)
+#     for num in s_num:
+#         file_out.write(str(num) + '\n')
 
 # task8
 
